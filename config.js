@@ -31,7 +31,7 @@ const CONFIG = {
   // into the TargetPlan table (via "Add a row into a table") instead of only
   // simulating the change in the browser. Leave as the placeholder to keep the
   // current browser-only simulation behavior.
-  SUBMIT_TARGET_REVISION_API: "POWER_AUTOMATE_SUBMIT_REVISION_ENDPOINT",
+  SUBMIT_TARGET_REVISION_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/03/workflows/3a8aef0872f8438ca70a9e21a873dc96/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uQYaj7vWThHctLD0ZoCaX2vv0PCou9C2f3us5T1dGEs",
 
   // Demo-mode fallback files (used only while DEMO_MODE === true)
   DEMO_ACTUAL_SALES_FILE: "actual_sales.sample.json",
