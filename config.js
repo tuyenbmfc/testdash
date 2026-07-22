@@ -33,6 +33,9 @@ const CONFIG = {
   // current browser-only simulation behavior.
   SUBMIT_TARGET_REVISION_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/03/workflows/3a8aef0872f8438ca70a9e21a873dc96/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uQYaj7vWThHctLD0ZoCaX2vv0PCou9C2f3us5T1dGEs",
 
+  MONTHLY_SUMMARY_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/24/workflows/85ecdb5eef004f429be84a4cca2682d0/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=JTv7M5W6oAr0nnYTFahfU4WV7y9ypDEQ_aI16R5_yOc",
+  SALE_SUMMARY_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/29/workflows/17c2a0a5531f48c5918750082277369e/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=coFaFWc408ubyZHhO8wbDBT0ulfh6qbCx52nLWNbuRY",
+   
   // Demo-mode fallback files (used only while DEMO_MODE === true)
   DEMO_ACTUAL_SALES_FILE: "actual_sales.sample.json",
   DEMO_SALES_TARGET_FILE: "sales_targets.sample.json",
