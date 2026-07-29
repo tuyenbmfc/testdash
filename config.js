@@ -38,7 +38,7 @@ const CONFIG = {
   // this powers the "Năm 2025 — Tổng Quan" section and lets Year-over-Year growth
   // comparisons work even for years without detailed data. Leave as the placeholder
   // to hide that section entirely.
-  MONTHLY_SUMMARY_API: "POWER_AUTOMATE_MONTHLY_SUMMARY_ENDPOINT",
+  MONTHLY_SUMMARY_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/24/workflows/85ecdb5eef004f429be84a4cca2682d0/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=JTv7M5W6oAr0nnYTFahfU4WV7y9ypDEQ_aI16R5_yOc",
 
   // OPTIONAL — Flow E (see DOCUMENTATION.md §9). Actual Shipment Revenue totals PER
   // SALE for years with only aggregate data (e.g. 2025) — reads the "SaleSummary"
