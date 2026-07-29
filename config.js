@@ -31,7 +31,7 @@ const CONFIG = {
   // into the TargetPlan table (via "Add a row into a table") instead of only
   // simulating the change in the browser. Leave as the placeholder to keep the
   // current browser-only simulation behavior.
-  SUBMIT_TARGET_REVISION_API: "POWER_AUTOMATE_SUBMIT_REVISION_ENDPOINT",
+  SUBMIT_TARGET_REVISION_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/03/workflows/3a8aef0872f8438ca70a9e21a873dc96/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=uQYaj7vWThHctLD0ZoCaX2vv0PCou9C2f3us5T1dGEs",
 
   // OPTIONAL — Flow D (see DOCUMENTATION.md §9). For years where only month-level
   // totals exist (no per-customer/per-Sale breakdown), e.g. 2025. When configured,
@@ -45,7 +45,7 @@ const CONFIG = {
   // table. Combined with Year=2025 rows added directly to the existing TargetPlan
   // table, this powers a per-Sale Target vs Actual comparison for 2025, and lets
   // the 2026 Sales Ranking table show a "so với 2025" growth column.
-  SALE_SUMMARY_API: "POWER_AUTOMATE_SALE_SUMMARY_ENDPOINT",
+  SALE_SUMMARY_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/29/workflows/17c2a0a5531f48c5918750082277369e/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=coFaFWc408ubyZHhO8wbDBT0ulfh6qbCx52nLWNbuRY",
 
   // OPTIONAL — Flow H (GetIndustryNews). Đọc bảng "IndustryNews" (do Flow G tự động thu
   // thập tin RSS mỗi sáng). Dùng cho khu "Tin Ngành Cá Tra" trên Trang chính. Để nguyên
