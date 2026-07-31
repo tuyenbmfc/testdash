@@ -72,7 +72,7 @@ const CONFIG = {
   // (TRUE cho đúng 1 dòng ngưỡng mặc định áp cho thị trường không khớp từ khoá nào, để trống
   // MarketKeywords ở dòng đó). Để nguyên placeholder thì dashboard tự dùng ngưỡng mặc định trong
   // code — không lỗi.
-  CHEMICAL_THRESHOLD_API: "POWER_AUTOMATE_CHEMICAL_THRESHOLD_ENDPOINT",
+  CHEMICAL_THRESHOLD_API: "https://defaultb8d21e4f3f864367b6afe47d812e19.72.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/31/workflows/6bc7bed915a8475caa260b07cfa11996/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=wwMbZ3MFiPgoTyjZrF8GDQ6nHWd_uxHsldCAutsuPu0",
 
   // OPTIONAL — Flow H (GetIndustryNews). Đọc bảng "IndustryNews" (do Flow G tự động thu
   // thập tin RSS mỗi sáng). Dùng cho khu "Tin Ngành Cá Tra" trên Trang chính. Để nguyên
